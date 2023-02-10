@@ -1,0 +1,32 @@
+
+.container{
+    border-bottom: 1px solid black;
+}
+#logo{
+    width:200px;
+    height: 70px;
+ }
+ .navbar ul li{
+    color: black;
+ }
+ #search {
+    height: 30px;
+    width: 30px;
+  }
+ #left_img{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    float: left;
+ }
+ .right_content{
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+ }
+ .imgs{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+ }
+
