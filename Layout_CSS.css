@@ -1,32 +1,47 @@
 
-.container{
-    border-bottom: 1px solid black;
+header{
+    border-bottom: 2px solid rgb(223, 218, 218);
 }
 #logo{
     width:200px;
     height: 70px;
  }
- .navbar ul li{
+ .navbar-nav{
     color: black;
+    font-weight: 500;
  }
  #search {
     height: 30px;
     width: 30px;
   }
- #left_img{
-    height: 300px;
-    width: 400px;
-    padding: 10px;
-    float: left;
+ .left_img .i1{
+    height: 350px;
+    width: 450px;
+    padding: 30px;
  }
  .right_content{
-    padding-right: 10px;
-    padding-top: 10px;
-    float: right;
+    padding: 10px;
+    margin-top: 50px;
  }
- .imgs{
-    width: 200px;
+ .main{
+   margin: 20px;
+   border-bottom: 2px solid rgb(223, 218, 218);
+}
+.details{
+   margin: 20px;
+   padding: 20px;
+   border-bottom: 2px solid rgb(223, 218, 218);
+}
+.para a{
+   text-align: center;
+}
+  .blogs img{
+    width: 300px;
     height: 200px;
-    padding: 5px;
+    padding: 10px;
  }
+ .blogs h2{
+   text-align: center;
+ }
+
 
