@@ -1,0 +1,56 @@
+<html>
+<head>
+<style>
+.dropbtn
+{
+   font-size:25px;
+   background-color:pink;
+   padding:10px;
+}
+.dropbtn:hover
+{
+   border: 2px solid blue;
+   cursor:pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content 
+{
+   position:absolute;
+   background-color:#f9f9f9;
+   color:red;
+   text-decoration : none;
+   min-width: 140px;
+   display:none;
+}
+.dropdown-content a 
+{
+  display : block;
+  display:block; 
+ padding : 15px;
+}
+.dropdown-content a:hover
+ {
+background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content
+{
+  display:block;
+}
+
+</style>
+</head>
+<body>
+<h2>Dropdown Menu</h2>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="https://www.google.com" target=_blank>Google</a>
+  <a href="https://www.gmail.com" target=_blank>Gmail</a>
+  <a href="https://www.youtube.com" target=_blank>Youtube</a>
+  </div>
+</div>
+</body>
+</html>
