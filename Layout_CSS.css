@@ -3,24 +3,29 @@ a{
 }
 header{
     border-bottom: 2px solid rgb(223, 218, 218);
+    background-color: white;
 }
 #logo{
     width:200px;
     height: 70px;
+    margin-right: 400px;
  }
- .navbar-custom .navbar-nav .nav-item{
+  header .nav-item{
     color: black;
-    font-weight: 500;
+    font-weight: 600;
+    padding-top: 15px;
  }
  #search {
     height: 30px;
     width: 30px;
   }
  .left_img #i1{
-    height: 350px;
-    width: 450px;
+    height: 400px;
+    width: 550px;
     padding: 30px;
+    border-radius: 20px;
  }
+ 
  .right_content{
     padding: 10px;
     margin-top: 50px;
@@ -34,7 +39,7 @@ header{
    padding: 20px;
    border-bottom: 2px solid rgb(223, 218, 218);
 }
-.para a{
+.para .dropdown{
    text-align: center;
 }
 .para p{
@@ -45,47 +50,101 @@ header{
    margin: 10px;
 }
 .img_desc #i2{
-   height: 300px;
-   width: 300px;
+   height: 500px;
+   width: 500px;
    margin: 10px;
+   position: absolute;
+}
+.img_desc .desc_1{
+   position: relative;
+   background-color: white;
+   margin-top: 400px;
+   margin-right: 100px;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px;
+   border-radius: 4%;
 }
 .img_desc #i3
 {
-   height: 200px;
-}
-.img_desc #i4
-{
-   height: 200px;
+   height: 250px;
+   width: 420px;
    margin: 10px;
-   margin-left: 400px;
+   position: absolute;
 }
+.img_desc .desc_2{
+   background-color: white;
+   margin-top: 10px;
+   margin-right: 80px;
+   width:350px;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px;
+}
+.img_desc #i4 
+{
+   height: 250px;
+   width:420px;
+   margin-top: 10px;
+   position: absolute;
+}
+.img_desc .desc_3{
+   background-color: white;
+   margin-top: 10px;
+   margin-right: 80px;
+   width:350px;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px;
+}
+.img_desc .blog_date{
+   display: flex;
+   font-size: 17px;
+   font-weight: 400;
+}
+.desc_1 .dropdown{
+   padding-left: 50px;
+}
+ .blogs h2{
+   text-align: center;
+ }
   .blogs img{
     width: 270px;
     height: 150px;
     padding: 20px;
  }
- .blogs h2{
-   text-align: center;
+ footer .image{
+   border-radius: 20px;
  }
-
+ .badge{
+    font-size: 30px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    margin-left: 10px;
+}
 .foot_desc p{
-   padding-left: 30px;
    font-weight: 600;
+}
+.blogs .dropdown{
+   color: aqua;
 }
 footer{
    background-color: black;
    color: white;
 }
-footer .navbar-custom{
+footer .navbar-custom ul li a{
    background-color: black;
- }
- footer .navbar-dark{
    color: white;
  }
- .navbar-custom li:not(:last-child):after{
+ footer .copyright{
+    margin-left: 150px;
+    padding-top: 8px;
+ }
+footer .navbar-custom li:not(:last-child):after{
    content: '|';
    margin : 2px 20px;
    margin-top: 1px;
+   color: white;
 }
 
 
