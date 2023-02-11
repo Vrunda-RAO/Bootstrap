@@ -1,4 +1,6 @@
-
+a{
+   text-decoration: none;
+}
 header{
     border-bottom: 2px solid rgb(223, 218, 218);
 }
@@ -6,7 +8,7 @@ header{
     width:200px;
     height: 70px;
  }
- .navbar-nav{
+ .navbar-custom .navbar-nav .nav-item{
     color: black;
     font-weight: 500;
  }
@@ -14,7 +16,7 @@ header{
     height: 30px;
     width: 30px;
   }
- .left_img .i1{
+ .left_img #i1{
     height: 350px;
     width: 450px;
     padding: 30px;
@@ -35,13 +37,56 @@ header{
 .para a{
    text-align: center;
 }
+.para p{
+   padding-left: 60px;
+   padding-right: 60px;
+}
+.img_desc{
+   margin: 10px;
+}
+.img_desc #i2{
+   height: 300px;
+   width: 300px;
+   margin: 10px;
+}
+.img_desc #i3
+{
+   height: 200px;
+}
+.img_desc #i4
+{
+   height: 200px;
+   margin: 10px;
+   margin-left: 400px;
+}
   .blogs img{
-    width: 300px;
-    height: 200px;
-    padding: 10px;
+    width: 270px;
+    height: 150px;
+    padding: 20px;
  }
  .blogs h2{
    text-align: center;
  }
+
+.foot_desc p{
+   padding-left: 30px;
+   font-weight: 600;
+}
+footer{
+   background-color: black;
+   color: white;
+}
+footer .navbar-custom{
+   background-color: black;
+ }
+ footer .navbar-dark{
+   color: white;
+ }
+ .navbar-custom li:not(:last-child):after{
+   content: '|';
+   margin : 2px 20px;
+   margin-top: 1px;
+}
+
 
 
