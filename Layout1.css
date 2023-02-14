@@ -1,0 +1,141 @@
+header #doc_img{
+    width:100%;
+    height: 600px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    position: absolute;
+}
+header h2{
+    background-color: rgb(20, 140, 253);
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    margin-bottom: 0%;
+    position: absolute;
+    height: 70px;
+    width: 80%;
+    margin-top: 540px;
+}
+header h3{
+    background-color: rgb(149, 240, 254);
+    size: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    height: 50px;
+    width: 60%;
+    margin-top: 610px;
+}
+.health #plus{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+.health p{
+    position: relative;
+   margin-left: 60px;
+   color: blue;
+   font-size: 20px;
+   padding-top: 10px;
+}
+.section{
+    margin-left: 100px;
+    margin-right: 0%;
+    margin-top: 670px;
+    position: absolute;
+}
+.section #quotes{
+    height: 50px;
+    width: 50px;
+}
+.section .about_us{
+    height: 250px;
+    border-bottom: 3px solid gainsboro;
+    color: blue;
+}
+.section #right_img{
+    height: 250px;
+    width: 400px;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    box-shadow: 5px 5px rgb(54, 134, 255);
+    margin-right: 0%;
+}
+
+.section h4{
+    text-align: right;
+    color: blue;
+}
+.section .imgs{
+    height: 80px;
+    width: 80px;
+    margin: 10px 40px;
+    border-radius: 50%;
+}
+.section .img_des{
+    color: blue;
+    border-bottom: 2px solid blue;
+    margin: 20px;
+    margin-top: 0%;
+    padding: 1px;
+    text-align: center;
+}
+.contact_us h3{
+    color: blue;
+    font-size: 20px;
+}
+.contact_us #web{
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+}
+.contact_us a{
+    margin-left: 0%;
+   font-size: 18px;
+   margin-right: 50px;
+}
+.contact_us .social{
+    height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   margin: 5px;
+}
+.section h2{
+    text-align: right;
+    background-color: rgb(54, 134, 255);
+    padding-right: 20px;
+    border-top-left-radius: 30%;
+    color: white;
+    margin-bottom: 0%;
+}
+.section .right_box{
+    text-align: right;
+    background-color: rgb(149, 240, 254);
+    padding: 20px;
+    margin-top: 0%;
+    color: white;
+    font-weight: 700;
+    margin-right: 0%;
+    position: relative;
+}
+.section #qrcode{
+    background-color: rgb(54, 134, 255);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    position: absolute;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
