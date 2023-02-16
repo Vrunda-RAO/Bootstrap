@@ -1,0 +1,107 @@
+.head .logo{
+    height:50px;
+    width: 50px;
+    background-color: rgb(111, 188, 166);
+    box-shadow: inset 8px 8px rgb(35, 61, 35);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.head h3{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.head .right_div{
+    height: 300px;
+    width: 350px;
+    padding-top: 20px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    color: white;
+    background-color: rgb(111, 188, 166);
+    margin-right: 40px;
+    margin-top: 0%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 60px;
+    position: absolute;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+  }
+.head .gd{
+    width: 100%;
+    height: 500px;
+}
+.head #mid_img{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.section{
+    height: 600px;
+}
+.section h2{
+    margin: 20px;
+    color: rgb(111, 188, 166);
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.section h3{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.section .badge{
+    font-size: 90px;
+    color: orange;
+    height: 150px;
+    margin-left: 20px;
+}
+.section .content h3{
+    font-size: 22px;
+    width: 500px;
+    color: rgb(111, 188, 166);
+    text-align: left;
+    padding-left: 50px;
+}
+
+.section .content p{
+    width: 500px;
+    color: rgb(111, 188, 166);
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.section .about_us{
+    background-color: rgb(111, 188, 166);
+    color: white;
+    padding: 20px;
+    margin-right: 70px;
+    height: 250px;
+    text-align: justify;
+}
+.section .contact_us{
+    background-color:orange;
+    color: white;
+    padding: 20px;
+    margin-right: 70px;
+    height: 250px;
+    text-align: justify;
+
+}
+.section .site {
+    height: 150px;
+    background-color: gainsboro;
+    color: white;
+    padding-top: 35px;
+    margin-right: 70px;
+    text-align: justify;
+    text-decoration: none;
+}
+.section .site a{
+    color:white;
+    text-decoration: none;
+}
