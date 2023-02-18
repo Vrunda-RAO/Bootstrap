@@ -1,14 +1,18 @@
-.head #back_img{
-    height: 600px;
-    width: 100%;
-    position: absolute;
+
+.head {
+    background-image: url('bg.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .head .logo{
     color: white;
-    height: 200px;
     width: 100%;
-    position: absolute;
+    height: 170;
     background-color: rgb(41, 39, 39 ,0.70);
+}
+.head a{
+    text-decoration: none;
+    color: white;
 }
 .head .logo h1{
     font-size: 50px;
@@ -21,26 +25,27 @@
     font-size: 20px;
     font-weight: 600;
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .head .logo h3{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     padding-left: 50px;
-    padding-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 30px;   
 }
 .head .right_menu{
-    width: 412px;
-    height: 400px;
-    padding: 20px;
+    padding-right: 50px;
     background-color: rgba(120, 113, 113, 0.5);
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 838px;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 40px;
-    position: relative;
+    margin-right: 0px;
+    padding-bottom: 80px;
+    padding-top: 50px;
 }
 .head ul li{
     direction: rtl;
@@ -48,41 +53,44 @@
     list-style-type: square;
     padding-right: 10px;
     margin-right: 20px;
+    padding: 7px;
+}
+.head .row{
+    margin: 0px;
 }
 .head .learn{
     background-color: rgb(243, 247, 18 , 0.60);
     color: white;
-    height: 200px;
-    position: relative; 
-    margin: 0%;
 }
-.head .learn .text{
-    position: relative;
-}
+
 .head h2{
     font-size: 50px;
-    padding: 20px;
-    padding-left: 60px;
+    padding: 30px;
+    padding-left: 50px;
 }
 .head .contact{
     background-color: rgba(15, 13, 13, 0.60);
     color: white;
-    height: 200px;
-    position: relative;
     text-align: right;
     padding: 10px;
     padding-right: 20px;
+    padding-top:  30px;
     margin: 0%;
-}
-.head h3{
-    font-size: 20px;
+    padding-bottom: 40px;
     direction: rtl;
+}
+.head p{
+    font-size: 20px;
     font-weight: 600;
     padding-right: 25px;
+}
+.mid .row{
+    margin: 0px;
 }
 .mid .first{
     background-color: white;
     margin: 0%;
+    padding-left: 50px;
 }
 .mid .first h2{
     color : red;
@@ -95,44 +103,54 @@
     font-size: 30px;
     font-weight: 800;
     padding: 10px;
+    padding-bottom: 5px;
 }
 .mid .first h4{
     color :gray;
     font-size: 20px;
     font-weight: 500;
     padding: 10px;
+    padding-top: 2px;
 }
 .mid .coded{
     background-color: rgb(69, 156, 255);
     color: white;
 }
 .mid #coded_logo{
-    height: 80px;
-    width: 80px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 50px;
-    background :none;
+    height: 90px;
+    width: 90px;
     position: absolute;
+    padding-right: 5px;
+    animation: myani 5s infinite;
+}
+@keyframes myani{
+    to{
+    transform : rotate(360deg);
+    }
 }
 .mid .coded h3{
     font-weight: 800;
     padding: 5px;
-    margin-top: 60px;
-    margin-left: 130px;
+    margin-top: 75px;
+    margin-left: 140px;
+    padding-bottom: 0px;
 }
 .mid .coded h6{
     font-weight: 500;
-    padding: 5px;
-    margin-left: 130px;
-    position: relative;
+    margin-left: 145px;
 }
 .about{
     background-color: rgb(240, 238, 238);
-    height: 700px;
+    padding-right: 40px;
+    border-bottom: 15px solid red;
+    padding-bottom: 100px;
+    padding-left: 60px;
+
 }
 .about h3{
     color: red;
-    padding-left: 40px;
     padding-top: 40px;
     padding-bottom: 10px;
     font-weight: 600;
@@ -141,15 +159,16 @@
 {
     color: gray;
     font-weight: 800;
-    padding-left: 40px;
     padding-bottom: 10px;
     font-size: 40px;
+}
+.about sup{
+    font-weight: 500;
 }
 .about h6
 {
     color: gray;
     font-weight: 500;
-    padding-left: 40px;
     padding-bottom: 10px;
     font-size: 20px;
     text-transform: uppercase;
@@ -158,10 +177,10 @@
 {
     color: gray;
     font-weight: 300;
-    padding-left: 40px;
     padding-top: 30px;
     text-align: justify;
     padding-right: 40px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .second h2{
@@ -172,9 +191,11 @@
     font-weight: 800;
     font-size: 40px;
 }
+.second .row{
+    margin: 0px;
+}
 .second{
     text-align: right;
-    height: 700px;
 }
 .second h3{
     color: gray;
@@ -204,4 +225,7 @@
     padding-left: 45px;
     text-align: justify;
     text-transform: uppercase;
+}
+.second p span{
+    margin-left: 100px;
 }
