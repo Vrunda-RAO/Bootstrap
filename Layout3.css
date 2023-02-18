@@ -1,0 +1,207 @@
+.head #back_img{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+.head .logo{
+    color: white;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(41, 39, 39 ,0.70);
+}
+.head .logo h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: overline 10px solid rgb(109, 179, 253);
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.head .logo h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.head .logo h3{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.head .right_menu{
+    width: 412px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgba(120, 113, 113, 0.5);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 838px;
+    line-height: 40px;
+    position: relative;
+}
+.head ul li{
+    direction: rtl;
+    text-align: right;
+    list-style-type: square;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+.head .learn{
+    background-color: rgb(243, 247, 18 , 0.60);
+    color: white;
+    height: 200px;
+    position: relative; 
+    margin: 0%;
+}
+.head .learn .text{
+    position: relative;
+}
+.head h2{
+    font-size: 50px;
+    padding: 20px;
+    padding-left: 60px;
+}
+.head .contact{
+    background-color: rgba(15, 13, 13, 0.60);
+    color: white;
+    height: 200px;
+    position: relative;
+    text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    margin: 0%;
+}
+.head h3{
+    font-size: 20px;
+    direction: rtl;
+    font-weight: 600;
+    padding-right: 25px;
+}
+.mid .first{
+    background-color: white;
+    margin: 0%;
+}
+.mid .first h2{
+    color : red;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px;
+}
+.mid .first h3{
+    color : gray;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+}
+.mid .first h4{
+    color :gray;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+.mid .coded{
+    background-color: rgb(69, 156, 255);
+    color: white;
+}
+.mid #coded_logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 60px;
+    margin-left: 50px;
+    background :none;
+    position: absolute;
+}
+.mid .coded h3{
+    font-weight: 800;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.mid .coded h6{
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 130px;
+    position: relative;
+}
+.about{
+    background-color: rgb(240, 238, 238);
+    height: 700px;
+}
+.about h3{
+    color: red;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.about h2
+{
+    color: gray;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.about h6
+{
+    color: gray;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.about p
+{
+    color: gray;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-top: 30px;
+    text-align: justify;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+.second h2{
+    color: rgb(57, 148, 251);
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.second{
+    text-align: right;
+    height: 700px;
+}
+.second h3{
+    color: gray;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.second #trophy_logo{
+    height: 110px;
+    width: 90px;
+    padding-right: 30px;
+}
+.second h4{
+    color: gray;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.second p
+{
+    color: gray;
+    font-weight: 300;
+    padding-right: 30px;
+    padding-left: 45px;
+    text-align: justify;
+    text-transform: uppercase;
+}
